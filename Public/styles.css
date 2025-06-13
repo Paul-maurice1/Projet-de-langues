@@ -5,7 +5,7 @@
 :root {
     --white: #ffffff;
     --light-grey: #edf0f1;
-    --lightgreen: #90EE90;          /* Vert clair (maintenu pour le background) */
+    --lightgreen: #90EE90;          /* Vert clair (maintenu pour le background du body) */
     --dark-pastelgreen: #03C03C;    /* Vert pastel foncé (pour le bouton Langues) */
     --black: #21232a;
     --dark-green: rgb(1, 50, 32);   /* Vert très foncé */
@@ -121,13 +121,7 @@ body {
     overflow: hidden; /* Pour que l'image ne dépasse pas si elle est plus grande */
 }
 
-/* Ancienne règle pour le cercle de Fang, plus nécessaire car tout est blanc maintenant */
-/* .Langues li:nth-child(2) a {
-    background: var(--white);
-} */
-
-
-/* STYLE GÉNÉRAL POUR LES IMAGES D'ICÔNES (maintenant 80px) */
+/* STYLE GÉNÉRAL POUR LES IMAGES D'ICÔNES (maintenant 85px) */
 .Langues li a .lang-icon {
     width: 85px; /* Taille augmentée à 85px */
     height: 85px; /* Taille augmentée à 85px */
@@ -135,7 +129,7 @@ body {
     transition: transform 0.3s ease; /* Animation au survol */
 }
 
-/* STYLE SPÉCIFIQUE POUR ICON2.PNG (Fang) - Reste à 50px */
+/* STYLE SPÉCIFIQUE POUR ICON2.PNG (Fang) - Reste à 45px */
 #fang-icon { /* Ciblage par l'ID de l'image Fang */
     width: 45px; /* Reste à 45px */
     height: 45px; /* Reste à 45px */
